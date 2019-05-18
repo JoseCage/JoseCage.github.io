@@ -12,21 +12,28 @@ permalink: /:title/
 defaults:
   -
     scope:
-      path: "" # an empty string here means all files in the project
+      path: "/blog" # an empty string here means all files in the project
       type: "posts"
     values:
       layout: "post"
 
 projects:
-  sort_by: pushed
-  # sort_by options:
-  #   - pushed
-  #   - stars
+  sort_by: stars
+  # sort_by:
+    #     - pushed
+    # - stars
   limit: 12
   exclude:
-    forks: true
+    forks: false
     projects:
-    # - repo-name
+      - travisci-test
+      - community-starter-kit
+      - continuous-integration-travis
+      - getting-started-github-apps
+      - github-slideshow
+      - HTMLPortfolioProject
+      - HelloCodeSchoolProject
+      - slackin-auto
 
 social_media:
   # behance: your_username
@@ -40,19 +47,24 @@ social_media:
   # stackoverflow: your_user_id
   telegram: josecage
   twitter: cagejose
-  # unsplash: your_username
+  unsplash: josecage
+  buymeacoffee: josecage
   # vk: your_username
   # website: http://your_website_url
   # youtube: your_username
 
 topics:
-  - name: CSS
-    web_url: https://github.com/topics/css
-    image_url: https://raw.githubusercontent.com/github/explore/6c6508f34230f0ac0d49e847a326429eefbfc030/topics/css/css.png
+  - name: Ruby
+    web_url: https://github.com/topics/ruby
+    image_url: https://raw.githubusercontent.com/github/explore/6c6508f34230f0ac0d49e847a326429eefbfc030/topics/ruby/ruby.png
 
   - name: Laravel
     web_url: https://github.com/topics/laravel
     image_url: https://raw.githubusercontent.com/github/explore/6c6508f34230f0ac0d49e847a326429eefbfc030/topics/laravel/laravel.png
+
+    #  - name: Elixir
+    #    web_url: https://github.com/topics/elixir
+    #    image_url: https://raw.githubusercontent.com/github/explore/6c6508f34230f0ac0d49e847a326429eefbfc030/topics/elixir/elixir.png
 
   - name: Sass
     web_url: https://github.com/topics/sass
