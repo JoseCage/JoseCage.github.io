@@ -24,6 +24,7 @@ projects:
     # - stars
   limit: 12
   exclude:
+    archived: false
     forks: false
     projects:
       - travisci-test
@@ -51,22 +52,22 @@ social_media:
   buymeacoffee: januario
   makerlog: josecage
   # vk: your_username
-  # website: http://your_website_url
+  # website: https//your_website_url
   # youtube: your_username
 
 topics:
-  - name: Ruby
-    web_url: https://github.com/topics/ruby
-    image_url: https://raw.githubusercontent.com/github/explore/6c6508f34230f0ac0d49e847a326429eefbfc030/topics/ruby/ruby.png
-
   - name: Laravel
     web_url: https://github.com/topics/laravel
     image_url: https://raw.githubusercontent.com/github/explore/6c6508f34230f0ac0d49e847a326429eefbfc030/topics/laravel/laravel.png
+
+  - name: Bash
+    web_url: https://github.com/topics/bash
+    image_url: https://raw.githubusercontent.com/github/explore/6c6508f34230f0ac0d49e847a326429eefbfc030/topics/bash/bash.png
 
     #  - name: Elixir
     #    web_url: https://github.com/topics/elixir
     #    image_url: https://raw.githubusercontent.com/github/explore/6c6508f34230f0ac0d49e847a326429eefbfc030/topics/elixir/elixir.png
 
-  - name: Sass
-    web_url: https://github.com/topics/sass
-    image_url: https://raw.githubusercontent.com/github/explore/6c6508f34230f0ac0d49e847a326429eefbfc030/topics/sass/sass.png
+  - name: Android
+    web_url: https://github.com/topics/android
+    image_url: https://raw.githubusercontent.com/github/explore/6c6508f34230f0ac0d49e847a326429eefbfc030/topics/android/android.png
